@@ -17,6 +17,7 @@ const index = () => {
         <Route path="main/*" element={<MainLayout />}>
           <Route path="products" element={<Products />} />
           <Route path="posts" element={<Posts />} />
+          
         </Route>
       </Route>
     )
